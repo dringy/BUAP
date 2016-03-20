@@ -1,0 +1,7 @@
+name: BUAP
+main: me.bjd28.BUAP.BUAP
+version: 1.0
+commands:
+  BUAP:
+    description: Manage the BUAP SQL Database Using BUAP commands. New - Sets up a new map. DeleteMap - Delete map with given ID. DeletePlayer - Delete Player with given Name. Reset - All Information about a Map is returned to default.
+    usage: /BUAP [New|DeleteMap|DeletePlayer|Reset|MapSwitch] [Value]

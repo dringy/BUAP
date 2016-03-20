@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Benjamin/Desktop/BukkitServ/plugins/BUAP.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Minecraft ASP Bukkit Plugin/out.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="false" exportOutputFolder="true">
+        <file path="/Minecraft ASP Bukkit Plugin/.classpath"/>
+        <javaElement handleIdentifier="=Minecraft ASP Bukkit Plugin/&lt;me.bjd28.BUAP"/>
+        <file path="/Minecraft ASP Bukkit Plugin/.project"/>
+        <file path="/Minecraft ASP Bukkit Plugin/out.jardesc"/>
+        <file path="/Minecraft ASP Bukkit Plugin/plugin.yml"/>
+    </selectedElements>
+</jardesc>

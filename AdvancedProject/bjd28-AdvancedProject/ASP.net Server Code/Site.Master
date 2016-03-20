@@ -1,0 +1,106 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="Bath_MinecraftASPWebsite.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .heading1 {
+            height: 0%;
+            width: 100%;
+            font-family: "Bauhaus 93";
+            color: rgb(10, 121, 245);
+            margin-left: 5%;
+            font-size: 35pt;
+            clear: both;
+        }
+
+        .heading2 {
+            height: 0%;
+            width: 95%;
+            font-family: "Bauhaus 93";
+            color: rgb(10, 121, 245);
+            margin-left: 0%;
+            font-size: 35pt;
+            clear: both;
+        }
+
+        .Gheading2 {
+            height: 0%;
+            width: 95%;
+            font-family: "Bauhaus 93";
+            color: rgb(51, 153, 102);
+            margin-left: 0%;
+            font-size: 25pt;
+            clear: both;
+        }
+
+        .Oheading2 {
+            height: 0%;
+            width: 95%;
+            font-family: "Bauhaus 93";
+            color: rgb(255, 128, 0);
+            margin-left: 0%;
+            font-size: 25pt;
+            clear: both;
+        }
+
+        .bground {
+            background-color: rgb(255, 255, 255);
+            width: 90%;
+        }
+
+        .rightside {
+            float: right;
+            font-size: 15pt;
+        }
+
+        .Ghover:hover {
+            color: rgb(51, 153, 102);
+        }
+
+        .Ohover:hover {
+            color: rgb(255, 128, 0);
+        }
+
+        .solidG {
+            color: rgb(51, 153, 102);
+            text-decoration: none;
+        }
+        .Ghover{text-decoration:none;}
+        .Ohover{text-decoration:none;}
+
+        .leftside {
+            float: left;
+        }
+
+        .clearaway {
+            clear: both;
+        }
+
+        a {
+            color: inherit;
+        } 
+    </style>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bground">
+    <div class="heading1">
+        <div class="leftside">
+            Server Info
+        </div>
+        <div class="rightside" id="masterRightSideText" runat="server">
+            <a class="Ghover" href="PlayerList.aspx">Players</a>
+            <br />
+            <a class="Ghover" href="MapList.aspx">Maps</a>
+        </div>
+        <div class="clearaway">
+            <hr />
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+How to use my project:
+Run the ASP.net Server Code in the same folder, you will need an ASP.net server or something to simulate it such
+as Visual Studio (Visual Studio 2012 on University Machines will work).
+
+The plugin requires a full Minecraft server. You will need to install the server from here:
+http://dl.bukkit.org/downloads/craftbukkit/     (Use recommender build)
+I have included a folder named MC Server, place this folder on
+your computer and double click on run.bat with the server Jar file in the same directory
+My plugin will be included in the plugin folder. Please note
+the run.bat and Minecraft Server was not written by me but the plugin was.
+
+The SQL server is needed to be installed. I used Windows SQL Express 2012 found at this URL:
+http://www.microsoft.com/en-gb/download/details.aspx?id=29062
+Once installed you will need to add a database that uses Windows Authentication.
+The plugin is designed to cope with a database named: BathCSAdvancedProject
+and an instance named: SQLEXPRESS
+So please use these names, it is also designed to work locally.
+On your computer manager ensure the SQL server for SQLEXPRESS is running
+and TCP/IP Protocol is enabled.
+
+You will need to install the JDBC driver (included in the folder JDBC), copy this driver into your java environment
+for me it was C:\Windows\System32
+
+To run the Website simply run PlayerList.aspx.vb through the ASP.net server (or Visual Studio)
+
+To run the server and thus the plugin double click on run.bat
+
+You will need to run all the SQL queries onto the database, included in the original upload. 
+I do this using Visual Studio Server Explorer.
+
+It is important to note that this program was designed for personal use, and not to be easily portable.
